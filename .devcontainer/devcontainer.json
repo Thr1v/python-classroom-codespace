@@ -6,14 +6,13 @@
   ],
   "settings": {
     "terminal.integrated.enable": false,
-    "workbench.action.terminal.toggleTerminal": false,
     "code-runner.runInTerminal": false,
     "editor.fontSize": 12,
-    "extensions.ignoreRecommendations": true,
     "extensions.disableInstallation": true,
+    "extensions.ignoreRecommendations": true,
     "debug.showInStatusBar": "never",
     "debug.openDebug": "neverOpen",
     "python.linting.enabled": false
   },
-  "features": {}
+  "postCreateCommand": "./.devcontainer/init.sh"
 }
